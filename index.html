@@ -38,7 +38,7 @@
 
     <header class="sticky top-0 z-1">
         <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
         <nav
             class="relative bg-green-800 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
@@ -103,7 +103,7 @@
     </header>
 
     <section id="banner" class="bg-[url(./img/banner.jpg)] bg-cover bg-center h-screen w-full  relative ">
-        <div class="absolute top-50 left-100 w-25vh">
+        <div class="absolute top-50 left-15 md:left-100  w-25vh">
             <p class="text-6xl text-orange-800 underline">Come home to yourself</p>
             <p class="text-2xl text-white">
                 Your online yoga studio for movement and mindful practices that evolve with you, nurturing
@@ -115,20 +115,20 @@
 
     <section>
         <p class="text-center text-5xl mt-20 font-bold">Our Classes</p>
-        <div class="flex justify-evenly items-center text-center p-20">
-            <div class="w-100 h-60 bg-green-200 flex flex-col justify-center items-center shadow-xl ">
+        <div class="flex flex-wrap gap-8 justify-evenly items-center text-center p-20">
+            <div class="w-100 p-4  bg-green-200 flex flex-col justify-center items-center shadow-xl rounded-xl">
                 <i class="fa-solid fa-video  text-5xl py2" style="color: rgb(99, 230, 190);"></i>
                 <p class="text-3xl ">LIVE Online Classes</p>
                 <p class="my-3">Join to practice Hatha & Vinyasa flow LIVE with students globally.</p>
                 <button>More Details ➔</button>
             </div>
-            <div class="w-100 h-60 bg-green-200 flex flex-col justify-center items-center shadow-xl ">
+            <div class="w-100 p-4  bg-green-200 flex flex-col justify-center items-center shadow-xl rounded-xl">
                 <i class="fa-solid fa-microphone-lines text-5xl py2" style="color: rgb(99, 230, 190);"></i>
                 <p class="text-3xl ">Studio Offline Classes</p>
                 <p class="my-3">Experience the power of yoga with Asana, Pranayama and Meditation.</p>
                 <button>More Details ➔</button>
             </div>
-            <div class="w-100 h-60 bg-green-200 flex flex-col justify-center items-center shadow-xl ">
+            <div class="w-100 p-4  bg-green-200 flex flex-col justify-center items-center shadow-xl rounded-xl">
                 <i class="fa-solid fa-clapperboard text-5xl py2" style="color: rgb(99, 230, 190);"></i>
                 <p class="text-3xl ">Recorded Classes</p>
                 <p class="my-3">Various classes across Yoga and Mindfulness. Access Anywhere.</p>
@@ -142,7 +142,7 @@
         <p class=" text-3xl mt-20 font-bold my-5">Practice with experienced teachers</p>
         <p>Our experienced teachers meet you where you are, offering guidance that helps you move with confidence,
             clarity and ease.</p>
-        <div class="  flex justify-evenly items-center text-center p-20">
+        <div class="  flex flex-wrap gap-8 justify-evenly items-center text-center p-20">
             <div class="w-70 rounded-full flex flex-col justify-center items-center  ">
                 <img src="./img/i1.png" class="rounded-full hover:border-15 border-green-200" alt="">
                 <p class="text-3xl hover:underline ">Scarlet</p>
@@ -151,58 +151,54 @@
             <div class="w-70 rounded-full flex flex-col justify-center items-center  ">
                 <img src="https://www.yogaeasy.com/wp-content/uploads/2026/07/Wenlin.png"
                     class="rounded-full hover:border-15 border-green-200" alt="">
-                <p class="text-3xl hover:underline ">Scarlet</p>
-                <p class="my-3">Meditation | Slow Flow | Hatha </p>
+                <p class="text-3xl hover:underline ">Wenlin</p>
+                <p class="my-3">Yin Yoga | Breathwork | Mobility </p>
             </div>
             <div class="w-70 rounded-full flex flex-col justify-center items-center  ">
                 <img src="https://www.yogaeasy.com/wp-content/uploads/2026/07/Tashi-option-1.png"
                     class="rounded-full hover:border-15 border-green-200" alt="">
-                <p class="text-3xl hover:underline ">Scarlet</p>
-                <p class="my-3">Meditation | Slow Flow | Hatha </p>
+                <p class="text-3xl hover:underline ">Tashi</p>
+                <p class="my-3">Hatha | Pranayama | Guided Relaxation </p>
             </div>
             <div class="w-70 rounded-full flex flex-col justify-center items-center  ">
                 <img src="https://www.yogaeasy.com/wp-content/uploads/2026/07/David.png"
                     class="rounded-full hover:border-15 border-green-200" alt="">
-                <p class="text-3xl hover:underline ">Scarlet</p>
-                <p class="my-3">Meditation | Slow Flow | Hatha </p>
+                <p class="text-3xl hover:underline ">David</p>
+                <p class="my-3">Vinyasa | Core Flow | Strength </p>
             </div>
 
         </div>
 
     </section>
 
-    <section class="text-center h-150 bg-green-200 p-8">
+    <section class="text-center  bg-green-200 p-8">
         <h3 class="text-3xl mb-5">Yoga</h3>
-        <div class="flex justify-evenly py-10">
+        <div class="flex flex-wrap gap-8 justify-evenly py-10">
             <div class="card bg-white rounded-xl w-70 h-100 shadow-xl">
                 <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <p class="text-xl font-bold text-center "> Start your day</p>
-                <p class="text-sm text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. ea debitis
-                    accusamus neque, voluptatum nisi repellat iusto, necessitatibus quidem!</p>
+                <p class="text-xl font-bold text-center ">Morning Flow</p>
+                <p class="text-sm text-justify p-3">A gentle sequence to wake up the body, open the hips, and build steady energy for the day.</p>
                 <button class="bg-green-900  px-5 py-2 rounded-xl text-green-200">View Details</button>
             </div>
 
             <div class="card bg-white rounded-xl w-70 h-100 shadow-xl">
                 <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <p class="text-xl font-bold text-center "> Start your day</p>
-                <p class="text-sm text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. ea debitis
-                    accusamus neque, voluptatum nisi repellat iusto, necessitatibus quidem!</p>
+                <p class="text-xl font-bold text-center ">Core Strength</p>
+                <p class="text-sm text-justify p-3">Build stability and balance with focused movements that activate your center and improve posture.</p>
                 <button class="bg-green-900  px-5 py-2 rounded-xl text-green-200">View Details</button>
             </div>
 
             <div class="card bg-white rounded-xl w-70 h-100 shadow-xl">
                 <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <p class="text-xl font-bold text-center "> Start your day</p>
-                <p class="text-sm text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. ea debitis
-                    accusamus neque, voluptatum nisi repellat iusto, necessitatibus quidem!</p>
+                <p class="text-xl font-bold text-center ">Deep Stretch</p>
+                <p class="text-sm text-justify p-3">Slow down with longer holds designed to release tension in the back, shoulders, and legs.</p>
                 <button class="bg-green-900  px-5 py-2 rounded-xl text-green-200">View Details</button>
             </div>
 
             <div class="card bg-white rounded-xl w-70 h-100 shadow-xl">
                 <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <p class="text-xl font-bold text-center "> Start your day</p>
-                <p class="text-sm text-justify p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. ea debitis
-                    accusamus neque, voluptatum nisi repellat iusto, necessitatibus quidem!</p>
+                <p class="text-xl font-bold text-center ">Evening Reset</p>
+                <p class="text-sm text-justify p-3">Unwind with calming breathwork and restorative poses to help your body relax before sleep.</p>
                 <button class="bg-green-900  px-5 py-2 rounded-xl text-green-200">View Details</button>
             </div>
 
@@ -212,41 +208,41 @@
 
     <section class="text-center  bg-green-200 p-8">
         <h3 class="text-3xl mb-5">Meditation</h3>
-        <div class="flex flex-wrap gap-3 justify-evenly py-10">
+        <div class="flex flex-wrap gap-8 justify-evenly py-10">
             <div
                 class="card flex flex-col justify-between items-center text-white bg-white rounded-xl w-70 h-70 shadow-xl bg-[url(./img/ocean.jpg)]  bg-cover">
-                <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Sleep Better </p>
-                <p class="text-xl font-bold text-center  pb-4 "> Start your day</p>
+                            <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Sleep Better </p>
+                            <p class="text-xl font-bold text-center  pb-4 "> Gentle Night Reset</p>
                 <div class="flex justify-between items-start p-2" style="width: 100%;">
-                    <span>Tom Holland </span>
-                    <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                                <span>Tom Holland </span>
+                                <span><i class="fa-regular fa-clock"></i> 20 min</span>
                 </div>
             </div>
             <div
                 class="card flex flex-col justify-between items-center text-white bg-white rounded-xl w-70 h-70 shadow-xl bg-[url(./img/ocean.jpg)]  bg-cover">
-                <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Sleep Better </p>
-                <p class="text-xl font-bold text-center  pb-4 "> Start your day</p>
+                            <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Morning Focus </p>
+                            <p class="text-xl font-bold text-center  pb-4 "> Start with Clarity</p>
                 <div class="flex justify-between items-start p-2" style="width: 100%;">
-                    <span>Tom Holland </span>
-                    <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                                <span>Mia Rivera </span>
+                                <span><i class="fa-regular fa-clock"></i> 15 min</span>
                 </div>
             </div>
             <div
                 class="card flex flex-col justify-between items-center text-white bg-white rounded-xl w-70 h-70 shadow-xl bg-[url(./img/ocean.jpg)]  bg-cover">
-                <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Sleep Better </p>
-                <p class="text-xl font-bold text-center  pb-4 "> Start your day</p>
+                            <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Stress Relief </p>
+                            <p class="text-xl font-bold text-center  pb-4 "> Pause and Breathe</p>
                 <div class="flex justify-between items-start p-2" style="width: 100%;">
-                    <span>Tom Holland </span>
-                    <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                                <span>Liam Carter </span>
+                                <span><i class="fa-regular fa-clock"></i> 25 min</span>
                 </div>
             </div>
             <div
                 class="card flex flex-col justify-between items-center text-white bg-white rounded-xl w-70 h-70 shadow-xl bg-[url(./img/ocean.jpg)]  bg-cover">
-                <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Sleep Better </p>
-                <p class="text-xl font-bold text-center  pb-4 "> Start your day</p>
+                            <p class="self-start p-2"><i class="fa-regular fa-cloud"></i> Midday Calm </p>
+                            <p class="text-xl font-bold text-center  pb-4 "> Reset in Minutes</p>
                 <div class="flex justify-between items-start p-2" style="width: 100%;">
-                    <span>Tom Holland </span>
-                    <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                                <span>Ava Bennett </span>
+                                <span><i class="fa-regular fa-clock"></i> 10 min</span>
                 </div>
             </div>
 
@@ -258,109 +254,85 @@
 
     <section class="text-center bg-white p-8">
         <h3 class="text-3xl mb-5">Breathwork</h3>
-        <div class="flex justify-evenly flex-wrap items-center py-10">
+        <div class="flex justify-evenly flex-wrap gap-8 items-center py-10">
 
             <div class="card bg-white rounded-xl w-70  shadow-xl" style="height:max-content;">
-                <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2"
-                    style="height: 40%;">
-                    <p class="flex justify-between text-blue-300 pb-2 " style="width: 100%;">
-                        <span class="text-left ">
-                            <i class="fa-regular fa-cloud text-red-300"></i>
-                            Breath Work
-                        </span>
-                        <span class="text-black ">Level 1</span>
+                <img src="./img/banner.jpg" class="rounded-t-lg" alt="Morning Breathwork">
+                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2" style="height: 40%;">
+                    <p class="flex justify-between text-blue-300 pb-2" style="width: 100%;">
+                        <span class="text-left"><i class="fa-solid fa-sun text-yellow-400"></i> Energizing Breath</span>
+                        <span class="text-black">Level 2</span>
                     </p>
-                    <p class="text-xl  font-bold self-start   pb-4 "> Moment of Stillness</p>
-
+                    <p class="text-xl font-bold self-start pb-4">Wake-Up Breath</p>
                     <div class="w-70">
                         <div class="flex justify-between items-center px-2" style="width: 100%;">
                             <span class="flex items-center">
-
-                                <img src="./img/i1.png" class="rounded-full h-10" alt="">
-                                <span class="ml-2">Tom Holland </span>
+                                <img src="./img/i1.png" class="rounded-full h-10" alt="Ava">
+                                <span class="ml-2">Ava Bennett</span>
                             </span>
-                            <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                            <span><i class="fa-regular fa-clock"></i> 12 min</span>
                         </div>
-                        <a href="" class="border-t-1">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="" class="border-t">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
                     </div>
                 </div>
             </div>
             <div class="card bg-white rounded-xl w-70  shadow-xl" style="height:max-content;">
-                <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2"
-                    style="height: 40%;">
-                    <p class="flex justify-between text-blue-300 pb-2 " style="width: 100%;">
-                        <span class="text-left ">
-                            <i class="fa-regular fa-cloud text-red-300"></i>
-                            Breath Work
-                        </span>
-                        <span class="text-black ">Level 1</span>
+                <img src="./img/banner.jpg" class="rounded-t-lg" alt="Evening Breathwork">
+                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2" style="height: 40%;">
+                    <p class="flex justify-between text-blue-300 pb-2" style="width: 100%;">
+                        <span class="text-left"><i class="fa-solid fa-moon text-indigo-500"></i> Calming Breath</span>
+                        <span class="text-black">Level 1</span>
                     </p>
-                    <p class="text-xl  font-bold self-start   pb-4 "> Moment of Stillness</p>
-
+                    <p class="text-xl font-bold self-start pb-4">Nighttime Ease</p>
                     <div class="w-70">
                         <div class="flex justify-between items-center px-2" style="width: 100%;">
                             <span class="flex items-center">
-
-                                <img src="./img/i1.png" class="rounded-full h-10" alt="">
-                                <span class="ml-2">Tom Holland </span>
+                                <img src="./img/i1.png" class="rounded-full h-10" alt="Omar">
+                                <span class="ml-2">Omar Ruiz</span>
                             </span>
-                            <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                            <span><i class="fa-regular fa-clock"></i> 18 min</span>
                         </div>
-                        <a href="" class="border-t-1">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="" class="border-t">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
                     </div>
                 </div>
             </div>
             <div class="card bg-white rounded-xl w-70  shadow-xl" style="height:max-content;">
-                <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2"
-                    style="height: 40%;">
-                    <p class="flex justify-between text-blue-300 pb-2 " style="width: 100%;">
-                        <span class="text-left ">
-                            <i class="fa-regular fa-cloud text-red-300"></i>
-                            Breath Work
-                        </span>
-                        <span class="text-black ">Level 1</span>
+                <img src="./img/banner.jpg" class="rounded-t-lg" alt="Focus Breathwork">
+                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2" style="height: 40%;">
+                    <p class="flex justify-between text-blue-300 pb-2" style="width: 100%;">
+                        <span class="text-left"><i class="fa-solid fa-brain text-pink-400"></i> Focused Breath</span>
+                        <span class="text-black">Level 3</span>
                     </p>
-                    <p class="text-xl  font-bold self-start   pb-4 "> Moment of Stillness</p>
-
+                    <p class="text-xl font-bold self-start pb-4">Clarity Session</p>
                     <div class="w-70">
                         <div class="flex justify-between items-center px-2" style="width: 100%;">
                             <span class="flex items-center">
-
-                                <img src="./img/i1.png" class="rounded-full h-10" alt="">
-                                <span class="ml-2">Tom Holland </span>
+                                <img src="./img/i1.png" class="rounded-full h-10" alt="Liam">
+                                <span class="ml-2">Liam Carter</span>
                             </span>
-                            <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                            <span><i class="fa-regular fa-clock"></i> 25 min</span>
                         </div>
-                        <a href="" class="border-t-1">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="" class="border-t">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
                     </div>
                 </div>
             </div>
             <div class="card bg-white rounded-xl w-70  shadow-xl" style="height:max-content;">
-                <img src="./img/banner.jpg" class="rounded-t-lg" alt="">
-                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2"
-                    style="height: 40%;">
-                    <p class="flex justify-between text-blue-300 pb-2 " style="width: 100%;">
-                        <span class="text-left ">
-                            <i class="fa-regular fa-cloud text-red-300"></i>
-                            Breath Work
-                        </span>
-                        <span class="text-black ">Level 1</span>
+                <img src="./img/banner.jpg" class="rounded-t-lg" alt="Stress Relief Breathwork">
+                <div class="card flex flex-col justify-between items-center text-black bg-white rounded-xl p-2" style="height: 40%;">
+                    <p class="flex justify-between text-blue-300 pb-2" style="width: 100%;">
+                        <span class="text-left"><i class="fa-solid fa-heart-pulse text-red-400"></i> Stress Relief</span>
+                        <span class="text-black">Level 1</span>
                     </p>
-                    <p class="text-xl  font-bold self-start   pb-4 "> Moment of Stillness</p>
-
+                    <p class="text-xl font-bold self-start pb-4">Gentle Release</p>
                     <div class="w-70">
                         <div class="flex justify-between items-center px-2" style="width: 100%;">
                             <span class="flex items-center">
-
-                                <img src="./img/i1.png" class="rounded-full h-10" alt="">
-                                <span class="ml-2">Tom Holland </span>
+                                <img src="./img/i1.png" class="rounded-full h-10" alt="Maya">
+                                <span class="ml-2">Maya Patel</span>
                             </span>
-                            <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                            <span><i class="fa-regular fa-clock"></i> 15 min</span>
                         </div>
-                        <a href="" class="border-t-1">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="" class="border-t">CLASS DESCRIPTION <i class="fa-solid fa-angle-down"></i></a>
                     </div>
                 </div>
             </div>
@@ -373,29 +345,29 @@
         <p class="text-5xl text-green-800 font-bold my-3">Membership Includes</p>
         <div class="flex justify-evenly items-center p-10 flex-wrap">
             <div class="info w-100">
-                <p class="text-5xl text-green-800 font-bold my-3">3000+</p>
-                <p>Yoga Classes</p>
+                <p class="text-5xl text-green-800 font-bold my-3">3,000+</p>
+                <p>On-Demand Yoga Classes</p>
             </div>
             <div class="info w-100">
-                <p class="text-5xl text-green-800 font-bold my-3">3000+</p>
-                <p>Yoga Classes</p>
+                <p class="text-5xl text-green-800 font-bold my-3">150+</p>
+                <p>Expert Instructors</p>
             </div>
             <div class="info w-100">
-                <p class="text-5xl text-green-800 font-bold my-3">3000+</p>
-                <p>Yoga Classes</p>
+                <p class="text-5xl text-green-800 font-bold my-3">24/7</p>
+                <p>Live Meditation Sessions</p>
             </div>
 
             <div class="info w-100">
-                <p class="text-5xl text-green-800 font-bold my-3">3000+</p>
-                <p>Yoga Classes</p>
+                <p class="text-5xl text-green-800 font-bold my-3">4.9/5</p>
+                <p>Member Satisfaction Rating</p>
             </div>
             <div class="info w-100">
-                <p class="text-5xl text-green-800 font-bold my-3">3000+</p>
-                <p>Yoga Classes</p>
+                <p class="text-5xl text-green-800 font-bold my-3">12</p>
+                <p>Wellness Programs</p>
             </div>
             <div class="info w-100">
-                <p class="text-5xl text-green-800 font-bold my-3">3000+</p>
-                <p>Yoga Classes</p>
+                <p class="text-5xl text-green-800 font-bold my-3">100%</p>
+                <p>Flexible Beginner-Friendly Access</p>
             </div>
 
         </div>
@@ -454,9 +426,9 @@
 
 
     <section class="p-2 md:px-38 py-10">
-        <p class="text-5xl text-green-800 font-bold my-3 text-center ">Choose Membership Plan</p>
+        <p class="text-5xl text-green-800 font-bold my-3 text-center ">FAQs</p>
 
-        <div id="accordion-card" data-accordion="collapse">
+        <div id="accordion-card" data-accordion="collapse" class="sm:px-20 md:px-30 lg:px-40 " >
 
             <!-- Question 1 -->
             <h2 id="accordion-card-heading-1">
@@ -689,7 +661,7 @@
 
     <footer class="bg-neutral-primary-soft ">
         <div class="mx-auto w-full   py-6 lg:py-8">
-            <div class="md:flex md:justify-between ">
+            <div class="md:flex md:justify-between  px-10">
                 <div class="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src="./img/logo.png" class="h-7 me-3" alt="FlowBite Logo" />
@@ -734,7 +706,7 @@
                 </div>
             </div>
             <hr class="my-6 border-default sm:mx-auto lg:my-8" />
-            <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="sm:flex sm:items-center sm:justify-between  px-10">
                 <span class="text-sm text-body sm:text-center">© 2023 <a href="https://flowbite.com/"
                         class="hover:underline">Flowbite™</a>. All Rights Reserved.
                 </span>
